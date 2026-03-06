@@ -43,6 +43,9 @@ node server.js
 Find Local IP: Run ipconfig (Windows) or ifconfig (Mac/Linux) to find your IPv4 address.
 
 2. Android App Configuration (Android Studio)
+
+Open the DataSyncApp.zip on android studio.
+
 Permissions: Verify AndroidManifest.xml includes all tags for SMS, Contacts, Camera, and Location.
 
 Update IP: Set the SERVER_URL in MainActivity.kt to your PC's IPv4 address.
