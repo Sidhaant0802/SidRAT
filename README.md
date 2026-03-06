@@ -17,7 +17,7 @@
 
 ## 📂 Project Structure
 
-
+```text
 my-server/
 ├── node_modules/         # Node.js dependencies
 ├── AirDroid icon.png     # Custom app branding
@@ -25,7 +25,7 @@ my-server/
 ├── server.js             # Node.js logic and API
 ├── package.json          # Project metadata
 └── Data_YYYY-MM-DD.txt   # Captured data logs (Generated)
-
+```
 ---
 
 ## 🛠️ Setup Instructions
@@ -34,9 +34,10 @@ my-server/
 Install Node.js: Download the latest LTS version.
 
 Setup Server:
+```text
 npm install express
 node server.js
-
+```
 ---
 
 Find Local IP: Run ipconfig (Windows) or ifconfig (Mac/Linux) to find your IPv4 address.
